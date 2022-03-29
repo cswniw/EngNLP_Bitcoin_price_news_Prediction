@@ -32,7 +32,7 @@ for i in years :
 
 ################################ 본편. 비트코인 가격 데이터는 인베스팅닷컴에서 다운로드함. 결측치 없음  #########
 
-##### 비트코인 가겨의 날짜 데이터 타입을 timestamp 한다.
+##### 비트코인 가격의 날짜 데이터 타입을 timestamp 한다.
 
 import pandas as pd
 df = pd.read_csv('./datasets/Bitcoin.csv')    # 비트코인 데이터 csv파일 경로 확인.
